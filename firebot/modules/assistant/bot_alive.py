@@ -11,8 +11,8 @@ pm_caption += "➥ **Database Status:**  `Functional`\n"
 pm_caption += "➥ **Current Branch** : `master`\n"
 pm_caption += f"➥ **Version** : `{currentversion}`\n"
 pm_caption += f"➥ **My Boss** : {DEFAULTUSER} \n\n"
-pm_caption += "➥ **Repo** :  [HERE](https://github.com/FireXbot/Fire-X)\n"
-pm_caption += "[Support Channel](https://t.me/FIRE_X_CHANNEL)"
+pm_caption += "➥ **Repo** :  [HERE](https://github.com/TeamEviral/SkynoidNew)\n"
+pm_caption += "[Support Channel](https://t.me/SkynoidBot)"
 
 # only Owner Can Use it
 @assistant_cmd("alive", is_args=False)
