@@ -31,7 +31,7 @@ async def spammer(e):
 async def bigspam(fire):
     if not fire.text[0].isalpha() and fire.text[0] not in ("/", "#", "@", "!"):
         fire_msg = fire.text
-        firebot_count = int(fire_msg[9:13])
+        firebot_count = int(fire_msg[8:11])
         fire_spam = str(fire.text[13:])
         for i in range(1, firebot_count):
             await fire.respond(fire_spam)
