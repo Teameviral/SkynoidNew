@@ -1,7 +1,7 @@
 from firebot import ALIVE_NAME, CMD_LIST, lang
 from firebot.utils import fire_on_cmd
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Skynoid"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "SkynoidNew"
 
 
 @borg.on(fire_on_cmd(pattern="help ?(.*)"))
